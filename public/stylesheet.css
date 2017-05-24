@@ -1,0 +1,57 @@
+.form-control {
+    display: inline-block;
+    width: 100px;
+    margin-top: 30px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.container-small {
+    width: 60%;
+}
+
+label {
+    margin-right: 5px;
+}
+
+button {
+    border: #ccc 1px solid;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+    height: 30px;
+    margin-left: 0;
+    background: white;
+}
+
+#offset {
+    margin-right: -5px;
+    border-radius: 3px 0 0 3px;
+    height: 100%;
+}
+
+#search {
+    border-right: 0;
+    height: 100%;
+    margin-left: 0;
+    margin-right: -4px;
+    border-radius: 0;
+}
+#search:active {
+    background: white;
+}
+
+#offset:focus, #search:focus {
+    box-shadow: none;
+    border-color: #ccc;
+}
